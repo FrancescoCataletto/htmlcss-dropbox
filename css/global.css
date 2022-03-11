@@ -36,3 +36,7 @@ section{
 .box.partner{
     height: 500px;
 }
+
+.box.footer{
+    width: 90%;
+}
