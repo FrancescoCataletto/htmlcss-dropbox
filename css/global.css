@@ -2,6 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    display: inline-block;
+    background-color: rgb(0, 97, 255);
+    padding: 5px 15px;
+    font-size: 12px;
+    color: white;
 }
 
 /* DEBUG */
@@ -13,9 +37,6 @@ section{
 }
 
 .box{
-    width: 100%;
-    background-color: rgba(255, 0, 0, 0.1);
-    border: 1px solid black;
     margin: 0 auto;
 }
 

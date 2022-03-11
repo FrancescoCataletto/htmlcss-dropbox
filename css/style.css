@@ -1,0 +1,34 @@
+/* HEADER */
+header{
+    height: 80px;
+    line-height: 80px;
+}
+
+.navbar{
+    width: 98%;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    padding-right: 30px;
+}
+
+#empty{
+    width: calc(100% - 1000px);
+    height: 80px;
+}
+
+
+#lgin-btn{
+    line-height: 20px;
+    padding: 4px 15px;
+  }
+
+  
