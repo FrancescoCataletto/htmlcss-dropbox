@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* DEBUG */
+
+.box{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.1);
+    border: 1px solid black;
+}
+
+.box.jumbo{
+    height: 500px;
+}
