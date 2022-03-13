@@ -184,5 +184,31 @@ li:first-child{
     padding: 10px 0;
 }
 
+/* FIND A PARTNER SECTION */
 
+#partner-img{
+    width: 50%;
+    margin-right: 10%;
+}
 
+#partner-img img{
+    width: 100%;
+}
+
+#partner-text{
+    padding-right: 10%;
+}
+
+#partner-text h3{
+    padding-top: 50px;
+}
+
+#partner-text a{
+    background-color: white;
+    border: 1px solid rgb(134, 134, 134);
+    color: black;
+}
+
+#partner-text p, #partner-text span{
+    padding: 40px 0;
+}
