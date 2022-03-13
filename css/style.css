@@ -212,3 +212,19 @@ li:first-child{
 #partner-text p, #partner-text span{
     padding: 40px 0;
 }
+
+/* DROPBOX BUSINESS SECTION */
+.box.main h2{
+    font-size: 40px;
+    padding-bottom: 80px;
+}
+
+.business .float-left{
+    width: calc(100% / 3);
+    padding-right: 70px;
+    padding-bottom: 100px;
+}
+
+.business img{
+    width: 100%;
+}
