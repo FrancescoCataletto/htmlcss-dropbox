@@ -31,4 +31,44 @@ header{
     padding: 4px 15px;
   }
 
-  
+/* JUMBOTRON */
+
+#jumbotron{
+    background-color: rgb(180, 208, 231);
+    height: 600px;
+}
+
+.box.jumbo{
+    width: 80%;
+}
+
+h1{
+    font-size: 60px;
+    padding-top: 5%;
+}
+
+#img-box{
+    width: 60%;
+}
+
+#jumbo-img{
+    width: 100%;
+}
+
+#free-trial{
+    padding-top: 5%;
+}
+
+#free-trial p{
+    padding-bottom: 5%;
+}
+
+#free-trial span{
+    display: inline-block;
+    font-size: 12px;
+    padding: 5% 0;
+}
+
+.fa-arrow-down{
+    font-size: 30px;
+}
