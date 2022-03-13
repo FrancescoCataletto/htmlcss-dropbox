@@ -72,3 +72,47 @@ h1{
 .fa-arrow-down{
     font-size: 30px;
 }
+
+/* SUBSCRIPTION PLANS SECTION */
+.column-head{
+    border: 1px solid black;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.list{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.list h3{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.list ul{
+    list-style: none;
+}
+
+.list-month{
+    color: rgb(131, 144, 155);
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.column{
+    width: calc((100% / 3) - 40px);
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.middle.column{
+    margin: 0 40px;
+}
+
+.first.list{
+    padding-bottom: 100px;
+}
+
+.list-items{
+    padding: 10px 0;
+}

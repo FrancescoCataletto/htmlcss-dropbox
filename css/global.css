@@ -46,7 +46,7 @@ section{
 
 .box.main{
     width: 70%;
-    height: 300px;
+    padding-top: 10%;
 }
 
 .box.main.faq{
