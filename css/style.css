@@ -16,6 +16,10 @@ header{
     display: inline-block;
 }
 
+.navbar li:hover{
+    border-bottom: 1px solid black;
+}
+
 .navbar a{
     padding-right: 30px;
 }
@@ -29,7 +33,13 @@ header{
 #lgin-btn{
     line-height: 20px;
     padding: 4px 15px;
-  }
+}
+
+#lgin-btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 
 /* JUMBOTRON */
 
