@@ -51,6 +51,16 @@ h1{
     padding-top: 5%;
 }
 
+.button.jumbo{
+    margin: 20px 0;
+}
+
+.button.jumbo:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
 #img-box{
     width: 60%;
 }
@@ -355,6 +365,7 @@ h1{
     border-bottom: 1px solid rgb(223, 223, 225);
     font-weight: bold;
 }
+
 
 /* FOOTER */
 
