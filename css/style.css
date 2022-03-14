@@ -263,8 +263,6 @@ h1{
     padding-bottom: 60px;
 }
 
-
-
 .partner-img{
     width: 50%;
     height: 50%;
@@ -311,4 +309,20 @@ h1{
 
 #clear{
     background-color: rgb(255, 216, 48);
+}
+
+/* FAQ SECTION */
+#second-free-trial{
+    background-color: rgb(180, 208, 231);
+}
+
+#second-free-trial h2{
+    color: rgb(97, 8, 43);
+}
+
+#second-free-trial a{
+    padding: 10px 60px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }
