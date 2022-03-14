@@ -117,7 +117,7 @@ h1{
 }
 
 .column{
-    height: 1000px;
+    min-height: 1100px;
     width: 30%;
     border: 1px solid black;
 }
