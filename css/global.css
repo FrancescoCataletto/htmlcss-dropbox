@@ -32,11 +32,13 @@ a{
     color: white;
 }
 
+.w40{
+    width: 40%;
+}
 /* DEBUG */
 
 section{
     width: 100%;
-    border: 1px solid black;
 }
 
 .box{
