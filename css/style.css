@@ -326,3 +326,27 @@ h1{
     color: black;
     font-weight: bold;
 }
+
+#questions ul{
+    list-style: none;
+}
+
+#questions li:first-child{
+    font-size: 30px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(223, 223, 225);
+}
+
+#questions li{
+    cursor: pointer;
+}
+
+#questions li i{
+    text-align: right;
+}
+
+.faq-list{
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(223, 223, 225);
+    font-weight: bold;
+}
