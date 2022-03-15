@@ -4,61 +4,66 @@ header{
     line-height: 80px;
 }
 
-.navbar{
-    width: 98%;
-    position: relative;
+#navbar{
+    width: 95%;
 }
 
-#logo{
-    vertical-align: middle;
-}
-
-.navbar li{
+#navbar div{
     display: inline-block;
 }
 
-.navbar li:hover{
-    border-bottom: 1px solid black;
-}
-
-.navbar a{
+#nav-logo{
+    vertical-align: middle;
     padding-right: 30px;
 }
 
-#empty{
-    width: calc(100% - 1000px);
-    height: 80px;
+#navbar li{
+    display: inline-block;
 }
 
+.nav-list:hover a{
+    border-bottom: 1px solid black;
+}
 
-#lgin-btn{
+#navbar a{
+    margin-right: 30px;
+    padding-bottom: 31px;
+}
+
+#right-nav .button{
     line-height: 20px;
     padding: 4px 15px;
 }
 
-.bonus-1{
+.nav-list .bonus{
+    position: relative;
+}
+
+#bonus-1{
     opacity: 0;
     line-height: 40px;
     position: absolute;
     top: 80px;
-    left: calc(100% - 480px);
+    left: calc(100% - 550px);
     background-color: white;
 }
 
-.bonus-1 p{
+#bonus-1 p{
     padding: 0 10px;
     margin: 0 auto;
     font-size: 14px;
 }
 
-.bonus-nav:hover .bonus-1{
+.nav-list.bonus:hover #bonus-1{
     opacity: 1;
 }
 
-.bonus-1 p:hover{
+#bonus-1 p:hover{
     background-color: rgb(235, 235, 235);
     cursor: pointer;;
 }
+
+/*/ HEADER */
 
 /* JUMBOTRON */
 
