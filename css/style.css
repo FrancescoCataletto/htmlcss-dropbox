@@ -186,6 +186,15 @@ h1{
     padding-right: 5px;
     color: rgb(0, 94, 255);
 }
+
+.list-items .align{
+    margin-right: -20px;
+}
+
+.opp-border{
+    border-bottom: 1px solid rgb(209, 209, 212);
+    padding-bottom: 50px;
+}
 /* columns footer */
 #columns-footer{
     margin-top: 30px;
@@ -281,12 +290,12 @@ h1{
 .box.partner.middle{
     min-width: 100px;
     background-color: rgb(245, 245, 245);
-    height: 500px;
+    height: calc(100vh / 1.5);
     overflow: scroll;
 }
 
 .box.partner.right, .box.partner.left{
-    height: 500px;
+    height: calc(100vh / 1.5);
 }
 
 .box.partner.right, .box.partner.left, .box.partner.middle{
@@ -439,4 +448,9 @@ h1{
 
 #chevron{
     padding-bottom: 50px;
+}
+
+#chevron span{
+    border-top: 1px solid white;
+    padding-top: 40px;
 }
