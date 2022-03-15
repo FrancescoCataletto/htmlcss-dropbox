@@ -312,6 +312,7 @@ h1{
     height: 50%;
     border: 1px solid black;
     position: relative;
+    background-color: white;
 }
 
 .partner-img img{
@@ -321,6 +322,11 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     filter: invert(1);
+    cursor: pointer;
+}
+
+.partner-img:active{
+    transform: scale(0.9);
 }
 
 #designit{
